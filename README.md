@@ -13,7 +13,8 @@ In every repository that uses these hooks:
 
 ## Usage
 
-Add this repository to `.pre-commit-config.yaml`:
+Add this repository to `.pre-commit-config.yaml` — a complete example lives
+in [.pre-commit-config.yaml.example](.pre-commit-config.yaml.example):
 
 ```yaml
 repos:
