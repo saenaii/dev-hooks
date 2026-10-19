@@ -1,0 +1,10 @@
+# Hooks this repository exposes. Any repository can consume them by adding
+# this repository to its .pre-commit-config.yaml.
+- id: golang-lint
+  name: golang-lint
+  description: >
+    Lint the staged Go files with the shared golangci-lint rules and rewrite
+    interface{} to any.
+  entry: hooks/golang/lint.sh
+  language: script
+  files: \.go$

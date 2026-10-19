@@ -1,0 +1,16 @@
+# Shared golangci-lint rules for every repository that uses the golang-lint
+# hook. The hook passes this file with --config, so consuming repositories
+# need no lint setup of their own.
+version: "2"
+
+linters:
+  default: standard
+  enable:
+    - funlen
+    - gocyclo
+  settings:
+    funlen:
+      lines: 75
+      statements: -1 # disable the statement limit; only the line limit applies
+    gocyclo:
+      min-complexity: 15
