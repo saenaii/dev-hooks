@@ -18,7 +18,7 @@ in [.pre-commit-config.yaml.example](.pre-commit-config.yaml.example):
 
 ```yaml
 repos:
-  - repo: https://github.com/saenai/dev-hooks
+  - repo: https://github.com/saenaii/dev-hooks
     rev: v0.1.0 # use a tag or commit
     hooks:
       - id: golang-lint

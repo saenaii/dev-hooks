@@ -6,7 +6,7 @@
 repos:
   # Published usage: reference this repository by URL and pin rev to a tag.
   # Tag a release from dev-hooks with: git tag v0.1.0 && git push --follow-tags
-  - repo: https://github.com/saenai/dev-hooks
+  - repo: https://github.com/saenaii/dev-hooks
     rev: v0.1.0
     hooks:
       - id: golang-lint
